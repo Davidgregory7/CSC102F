@@ -1,0 +1,37 @@
+/* This is the body selector
+setting the background color property to the value of blue-ish
+setting the text color (foreground) property to black-ish */
+body{
+     background-color: aqua;
+    color: black;
+    }
+
+    /*
+    this is teh nav selector anything in between the <nav> tags will
+    be affected by these styles
+    */
+    nav{
+        height: 400px; /* 400 looks better to me */
+         width: 200px;
+        float: left;
+        padding: 5px;
+        line-height: 30px;
+    }
+
+    /*
+    this is footer selector - generally the footer will be at the bottom of the page
+    */
+    footer{
+     text-align: center;
+     margin-right: 200px;
+    }
+
+   /* the img with an id of memeImage will be affected by this style */
+    #memeimage{
+    margin-right: 200px;
+ }
+
+ /* anything in between the header tags will be affected by this style*/
+ header{
+      text-align: center;
+ }
